@@ -1,6 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('images/background.jpg') no-repeat center center fixed;
-    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-image: url('download.jpg'); /* مسیر عکس را اینجا قرار بده */
+    background-size: cover; /* عکس تمام صفحه شود */
+    background-position: center; /* مرکز صفحه باشد */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+
+p {
+    color: white;
+    text-align: center;
 }
